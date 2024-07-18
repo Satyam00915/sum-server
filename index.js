@@ -10,6 +10,7 @@ app.get("/", (req, res) => {
   const b = req.query.b;
   res.json({
     sum: `The sum is: ${parseInt(a) + parseInt(b)}`,
+    message: "Hello vanshika Love You!!"
   });
 });
 
