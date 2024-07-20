@@ -6,12 +6,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  const a = req.query.a;
-  const b = req.query.b;
-  res.json({
-    sum: `The sum is: ${parseInt(a) + parseInt(b)}`,
-    message: "Hello vanshika Love You!!"
-  });
+  res.send("Hello Shreya This is Satyam From My laptop!!!!!");
 });
 
 app.listen(5000);
